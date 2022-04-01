@@ -1,0 +1,50 @@
+body {
+  background: lightgreen;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 2em;
+}
+
+.card {
+  background: white;
+}
+
+span {
+  height: 100px;
+  display: block;
+  width: 100%;
+  background: #71A6B8;
+  margin-bottom: .5rem;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* align-items: baseline; */
+}
+
+
+.date {
+  /* border: 1px solid red; */
+  width: 40%;
+  order: 2;
+  text-align: right;
+  padding-right: .2rem;
+  margin: 0;
+  font-size: .8rem;
+}
+
+h3 {
+  width: 40%;
+  margin: 0;
+  order: 1;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+p.desc {
+  order: 3;
+  padding: 0 1rem;
+  line-height: 1.5rem;
+}
